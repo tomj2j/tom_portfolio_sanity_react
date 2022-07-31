@@ -36,7 +36,7 @@ const Header = () => (
           <p className="p-text">Web Developer</p>
           <p className="p-text">Problemlöser</p>
           <p className="p-text">Über den Tellerandgucker</p>
-          <p className="p-text">IT - Teamlead</p>
+          <p className="p-text">IT-Teamlead</p>
         </div>
       </div>
     </motion.div>
