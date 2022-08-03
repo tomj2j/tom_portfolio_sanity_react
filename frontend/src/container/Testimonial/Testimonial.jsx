@@ -8,7 +8,7 @@ const Testimonial = () => {
   const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    const brandsQuery = '*[_type == "brands"]';
+    const brandsQuery = '*[_type == "brands"] | order(name asc)';
 
     client.fetch(brandsQuery).then((data) => {
       setBrands(data);
